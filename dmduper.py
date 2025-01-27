@@ -392,7 +392,7 @@ softclip_reads_file.close()
 potential_dups = open(args.outdir + "/dup_candidates.txt","w")
 for eachregion in regions:
     potential_dups.write(eachregion)
-
+potential_dups.close()
 
 dup_rm_fasta = args.outdir + "/softclip_reads_dup_rm.fa"
 dup_rm_cmd = f"{seqkit} rmdup -s {fasta_file_name} -o {dup_rm_fasta}"
