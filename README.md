@@ -1,7 +1,7 @@
 # DMDuper
 Workflow to detect duplication in a gene and assign tandem/non-tandem status
 
-License details:
+**License details:**
 * Free for academic and research use under GPL-3.0 license. 
 * **Commercial use, please contact for licensing**
 
