@@ -5,18 +5,20 @@ License details:
 * Free for academic and research use under GPL-3.0 license. 
 * **Commercial use, please contact for licensing**
 
+## Description
 This is a beta version of the dmd duplication caller. It checks for duplication signatures based on softclip reads, performs haplotype-aware assembly of the soft-clipped reads and then maps it to the genome to identify the supplementary alignments to call the tandem/non-tandem status. 
+![alt text](https://github.com/jagadhesh89/dmduper/blob/main/DMD.png)
 
-Dependencies:
+## Dependencies:
 * Minimap2
 * Seqkit
 * Flye
 * Output of sniffles2 vcf
 
-![alt text](https://github.com/jagadhesh89/dmduper/blob/main/DMD.png)
 
 
-Usage:
+
+## Usage:
 ```
 python dmduper.py -b sample_hg38.bam -r hg38.fasta -sv sniffles.vcf.gz -o <output_folder>
 ```
