@@ -2,7 +2,7 @@
 Workflow to detect duplication in a gene and assign tandem/non-tandem status
 
 **License details:**
-* Free for academic and research use under GPL-3.0 license. 
+* Free for academic and research use.
 * **Commercial use, please contact for licensing**
 
 ## Description
